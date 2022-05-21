@@ -1,0 +1,11 @@
+.event_ad_banner{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.bg_home_banner {
+    margin-bottom: 60px;
+    padding-top: 60px;
+    border-top: 2px solid #707070;
+}

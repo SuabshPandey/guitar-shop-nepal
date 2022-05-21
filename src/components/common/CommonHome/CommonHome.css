@@ -1,0 +1,87 @@
+.horizontal_line {
+  border: 1px solid rgb(109, 109, 109);
+  opacity: 0.9;
+  margin-bottom: 50px;
+}
+.horizontal_line_btm {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(109, 109, 109);
+  opacity: 0.9;
+}
+.top_selling {
+  margin-top: 200px;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+.top_selling h2 {
+  background: #fff;
+  text-align: center;
+  padding: 5px 20px;
+  display: inline-block;
+  position: relative;
+  font-weight: 700;
+}
+.top_selling:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 100%;
+  background: #000;
+}
+
+/* Styling Common Headning Styling */
+
+.brand_head {
+  position: relative;
+}
+
+.horizontal_line_full {
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 30px;
+}
+.heading_top {
+    position: relative;
+}
+.heading_top h2 {
+  background: #181818;
+  padding: 5px 20px;
+  display: inline-block;
+  position: relative;
+  font-weight: 700;
+}
+.heading_top:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 100%;
+    background: #707070;
+}
+
+/* Styling More components */
+
+.explore {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 30px;
+}
+
+.explore:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.icon_more {
+  padding: 10px;
+  height: 50px;
+}
+.hr_lines_home {
+  border-top: 2px solid white;
+}

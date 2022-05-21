@@ -1,0 +1,19 @@
+.order .main_banner{
+    height: 350px;
+    background: url('../../home/homeImages/1.jpg');
+}
+
+.order_list_div{
+    /* border: 2px solid red; */
+    /* height: 500px; */
+    margin-bottom: 65px;
+}
+
+.custom_table_items{
+    font-size: 15px;
+}
+
+
+.table_headings{
+    font-size: 13px;
+}

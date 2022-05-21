@@ -1,0 +1,36 @@
+.container_bg::before{
+    content: '';
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.container_bg{
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    position: relative;
+}
+
+.bg_image{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.bg_title{
+    position: absolute;
+    top: 0;
+    padding-top: 20px;
+    padding-left: 40px;
+    
+}
+
+.product_bg_container{
+    margin-top: 100px;
+}

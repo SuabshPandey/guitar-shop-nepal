@@ -1,0 +1,126 @@
+/* .bg_home_banner{
+    background-image: url(./homeImages/1.jpg);
+    height: 400px;
+} */
+
+.category_banner{
+    margin-top: 80px;
+}
+
+/* .home_categorylist{
+    height: 400px;
+}
+.home_carousel_list{
+    height: 400px;
+} */
+.main_banner {
+    background-image: url(./homeImages/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    z-index: -1;
+}
+
+.main_banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(0, 0,0,0.5)
+  }
+
+/* .home{
+    background-color: whitesmoke;
+} */
+.bg_selling{
+    margin-top: 200px;
+    margin-bottom: 80px;
+    border-bottom: 3px solid #B2B2B2;
+    padding-bottom: 80px;
+}
+
+
+
+/* Styling shop by brands section */
+
+.bg_shop_brands{
+    background-color: rgb(24, 24, 24);
+}
+
+.brands_shop_div{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.brands_shop_div .line{
+    padding-bottom: 30px;
+}
+
+
+/* Styling Instrument section */
+
+.bg_instrument{
+    /* background-color: whitesmoke; */
+    padding-top: 80px;
+}
+
+
+
+/* Styling Home Guitar Sections */
+
+.bg_home_guitar{
+    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../home/homeImages/1.jpg"); */
+    background: #181818;
+    /* background-color: transparent; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Styling Home Drums Section */
+
+.bg_home_drums{
+    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../home/homeImages/1.jpg"); */
+    /* background: #6d6d6d; */
+    background-color: #181818;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 1px solid #dddddd4d;
+}
+.bg_home_ukulele{
+    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../home/homeImages/Ukulele/ukulele3.jpg"); */
+    /* background: #6d6d6d; */
+    background-color: #181818;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 1px solid #dddddd4d;
+}
+
+
+/* Styling Blog Section */
+.bg_home_blog{
+    background-color: rgb(255, 255, 255);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg_home_blog .explore{
+    color: black;
+    text-decoration: none;
+}
+/* 
+.bg_home_blog .icon_more{
+    color: black;
+} */
+.bg_shop_brands .explore .icon_more:last-child {
+    display: none;
+}
+.bg_home_ukulele .explore .icon_more:last-child,
+.bg_home_drums .explore .icon_more:last-child,
+.bg_home_guitar .explore .icon_more:last-child {
+    display: none;
+}

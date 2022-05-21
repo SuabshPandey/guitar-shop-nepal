@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.App {
+font-family: 'Montserrat', sans-serif;
+margin:0;
+padding: 0;
+}
+
+.pa{
+    padding: 10px;
+}
+.pa_t{
+    padding-top: 40px;
+}
+.pa_r{
+    padding-right: 40px;
+}
+.pa_tb{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pa_l{
+    padding-left: 10px;
+}
+.ma{
+    margin: 10px;
+}
+.ma_t{
+    margin-top: 10px;
+}
+.ma_b{
+    margin-bottom: 40px;
+}
+.ma_l{
+    margin-left: 10px;
+}
+.ma_r{
+    margin-right: 10px;
+}
+.ma_tb{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.wc{
+    color: #fff;
+}
+.bc{
+    color: #000;
+}
+.tc{
+    text-align: center;
+}
+.fs{
+    font-size: 18px;
+}
+
+.hr_lines{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(109, 109, 109);
+    
+}
+
+.App {
+    position: relative;
+   
+}
+
+.page-gap {
+    height: 250px;
+}
+
+@media (max-width:767px) {
+    .page-gap {
+        height: 375px;
+    }
+}

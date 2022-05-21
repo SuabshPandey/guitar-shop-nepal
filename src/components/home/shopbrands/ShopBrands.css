@@ -1,0 +1,29 @@
+
+.img_container{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.custom_brand_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.custom_card_title{
+    color: white;
+}
+.brand_head{
+    color: white;
+}
+
+.shop_brand_items{
+    padding: 10px;
+}
+
+/* .brand_bg{
+    background-color: rgb(19,19,19)
+} */
+/* 
+.brand_head{
+    position: relative;
+} */

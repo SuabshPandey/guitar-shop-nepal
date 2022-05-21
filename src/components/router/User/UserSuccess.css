@@ -1,0 +1,42 @@
+.user_success .main_banner{
+    height: 350px;
+    background: url('../../home/homeImages/1.jpg');
+}
+
+.user_success{
+    margin-top: 180px;
+    background-color: darkgrey;
+}
+
+.profile_details{
+    margin-top: 30px;
+}
+
+.main_container_div{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.profile_image_div{
+    width: 50%;
+    height: 160px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.profile_image_div .change_profile{
+    margin-top: 130px;
+}
+
+.profile_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.oders_div{
+    margin-top: 20px;
+}
+.profile_btn{
+    
+}

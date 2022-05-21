@@ -1,0 +1,119 @@
+.servicing .main_banner{
+    height: 350px;
+}
+.serviceing_form form label {
+    margin-bottom: 5px;
+    
+}
+.contact-area {
+    margin-bottom: 80px;
+}
+.contact-area-bg {
+    background-color: #fff;
+    position: relative;
+    margin-top: -170px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.contact-area-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-image: url(../../home/homeImages/contact-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact-form {
+    padding: 45px;
+    max-width: 800px;
+    position: relative;
+    z-index: 1;
+}   
+
+.contact-form .section-title {
+    margin-bottom: 30px;
+}
+
+.contact-form .section-title p {
+    max-width: 415px;
+    margin: 0 auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.contact-form .form-group .form-control {
+    height: 50px;
+    color: #948b9f;
+    border: 1px solid #ebebeb;
+    background-color: #f8f9fb;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.contact-form .form-group .form-control:focus {
+    outline: none;
+    border-color: red;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.contact-form .form-group textarea.form-control {
+    height: auto;
+}
+
+.default-btn {
+    padding: 14px 27px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.default-btn::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    background-color: green;
+    opacity: 0;
+    -webkit-transition: .7s;
+    transition: .7s;
+    border-radius: 5px;
+}
+
+.default-btn:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.default-btn:hover::before {
+    height: 100%;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+
+.contact-form .default-btn {
+    border: 0;
+    outline: none;
+    padding: 14px 60px;
+}

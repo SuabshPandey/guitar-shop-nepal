@@ -1,0 +1,14 @@
+.copyright{
+    background-color: rgb(38,38,38)
+}
+.footer_copyright_text{
+    color: #a3a3a3;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    opacity: 0.7;
+}
+.footer_right{
+    text-align: right;
+}

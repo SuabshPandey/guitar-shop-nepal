@@ -1,0 +1,35 @@
+.top_header{
+    color: #fff;
+    font-size: 14px;
+    border-right: 2px solid  rgb(225, 225, 225)
+}
+.top_header_bg{
+    background: rgba(0,0,0,0.9);
+    padding: 5px 0;
+    border:2px solid rgba(225, 225, 225, 0.5)
+}
+.top_header_bg a{
+    color: #fff;
+    text-decoration: none;
+}
+.top_header_middle {
+    text-align: center;
+}
+.top_header_bottom {
+    text-align: right;
+}
+.top_header_bottom .top_header i {
+    margin-right: 30px;
+}
+.top_header_bottom .top_header i:last-child {
+    margin-right: 0;
+}
+.top_header_bottom .top_header {
+    border-right: none;
+}
+.top_header i {
+    margin-right: 10px;
+}
+.top_header sup i {
+    margin-left: 10px;
+}

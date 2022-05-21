@@ -1,0 +1,30 @@
+.user_dashboard .main_banner{
+    height: 350px;
+    background: url('../../home/homeImages/1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .user_dashboard .main_banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(0, 0,0,0.5)
+  } */
+
+/* 
+.user_dashboard_bg::before{
+    content: '';
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-color: red;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+} */

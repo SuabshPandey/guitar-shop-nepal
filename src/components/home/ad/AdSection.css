@@ -1,0 +1,6 @@
+.event_ad_banner{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+}

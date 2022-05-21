@@ -1,0 +1,62 @@
+@media (max-width:767px) {
+    .top_header_middle .top_header {
+        border-right: none;
+    }
+    .top_header_bottom  {
+        text-align: center;
+        margin-top: 5px;
+        border-top: 2px solid  rgb(225, 225, 225);
+        padding-top: 5px;
+    }
+    .top_header {
+        font-size: 12px;
+    }
+    .wrapper {
+        position: fixed;
+        z-index: 9;
+        margin-top: 0;
+        top: 0;
+    }
+    nav .content {
+        border: none;
+    }
+    .wrapper nav {
+        background-color: #fff;
+        box-shadow: 0px 0px 18px 1px rgb(0 0 0 / 13%);
+    }
+    nav .content .logo {
+        height: 68px;
+        width: auto;
+        border-radius: 0;
+    }
+    nav .content {
+        justify-content: flex-end;
+    }
+    .custom_card_image {
+        margin: 0;
+    }
+    .filter_border {
+        padding:10px 0;
+    }
+    .bg_image {
+        height: 350px;
+    }
+    .product_bg_container {
+        margin-top: 70px;
+    }
+    .container_bg::before {
+        height: 350px;
+    }
+    .custom_div,
+    .bg_brands_div,
+    .custom_product_div {
+        margin-top: 65px;
+    }
+    .custom_form_btn_div {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .form-contact h2 {
+        margin-top: 50px;
+    }
+}
